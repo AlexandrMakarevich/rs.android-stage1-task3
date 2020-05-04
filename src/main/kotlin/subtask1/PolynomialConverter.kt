@@ -7,7 +7,6 @@ class PolynomialConverter {
     // TODO: Complete the following function
     fun convertToStringFrom(numbers: Array<Int>): String? {
         val finalString: StringBuilder = java.lang.StringBuilder()
-
         if (numbers.isEmpty()) return null
         for (i in numbers.indices){
             println("${numbers[i]}  i==$i")
